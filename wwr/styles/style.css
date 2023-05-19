@@ -1,21 +1,30 @@
-body {
-    max-width : 1600px;
-    margin: 0 auto;
-    background-color : #A2A483
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@500&display=swap');
 
+body {
+    background-color : #A2A483;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin: 0 ;
+    padding: 0;
+  }
+  h2 {
+    margin: 0;
   }
   #div-content {
     max-width: 1600px
   }
-
+  
   header { 
     background-color : #DCC396
   }
   nav a {
+    text-decoration: none;
     text-align: center;
     background-color :#DCC396;
     text-decoration: none;
-    color: #4F3632;
+    color: #4F3632;;
+    padding: 35px;
   }
   #hero-img {
     width: 100%;
@@ -30,6 +39,9 @@ body {
   .home-title {
     background-color : #A2A483;
     color :#ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
   }
   h4 {
     background-color:#A2A483 ;
@@ -49,6 +61,16 @@ body {
     text-decoration: none;
     color:#ffffff;
     padding: 1em;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+  }
+  .card-img {
+    border: 10px solid #ffffff;
+  }
+  main section img {
+    box-sizing: border-box;
   }
   .book:hover, .join:hover {
     background-color :#4F3632;
@@ -72,18 +94,28 @@ body {
     background-color : #ffffff;
   }
   .msg {
-    background-color : #4F3632
+    background-color : #4F3632;
+    line-height: 1.5em;
+    padding: 35px;
   }
   .msg h2 {
     background-color: #4F3632;
-    color: #ffffff
+    color: #ffffff;
+
   }
   .msg p {
     background-color: #4F3632;
-    color: #ffffff
+    color: #ffffff;
+    font-size: .8em;
+    padding-bottom: 15px;
+  }
+  .rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
   }
   footer {
-    background-color :#DCC396
+    background-color :#DCC396;
+    padding: 25px 50px;
+    margin-top: 200px
   }
   footer a {
     background-color: #DCC396;
@@ -104,12 +136,21 @@ body {
   footer a {
     color: #4F3632;
   }
+  footer .social img {
+    padding-top: 15px;
+  }
   .logo { 
     width: 80px;
   }
   .icon {
     width: 100px;
-}
+    padding-top: 10px;
+  }
+  #logo_link {
+    padding-top: 5px;
+  }
+
+
   
 
 
