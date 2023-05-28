@@ -11,8 +11,9 @@ body {
   h2 {
     margin: 0;
   }
-  #div-content {
-    max-width: 1600px
+  #content {
+    max-width : 1600px;
+    margin: 0 auto;
   }
   
   header { 
