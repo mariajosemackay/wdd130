@@ -138,16 +138,20 @@ body {
     display: grid;
     grid-column: 2/4;
     grid-row: 2/3;
+    width: 12cm;
+    
   }
   .camping-card {
     display: grid;
     grid-column: 5/7;
     grid-row: 2/3;
+    width: 12cm;
   }
   .rapids-card {
     display: grid;
     grid-column: 8/10;
     grid-row: 2/3;
+    width: 8cm;
   }
   #background { 
     height: 725px;
