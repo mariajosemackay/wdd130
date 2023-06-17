@@ -240,6 +240,8 @@ body {
     text-align: center;
     justify-content:center;
     align-items: center;
+    max-width : 1600px;
+    margin: 0 auto;
   }
   .aboutus-grid{
     display: grid;
@@ -279,6 +281,16 @@ body {
     width: 200%;
     align-content: center;
     padding-right: 10px;
+  }
+  footer aboutus{
+    background-color :#DCC396;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width : 1600px;
+    margin: 0 auto;
   }
   
   @media screen and (max-width: 900px) {
