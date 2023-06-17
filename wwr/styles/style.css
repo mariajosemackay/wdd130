@@ -236,7 +236,7 @@ body {
 
   About us page here
 
-  .aboutus content {
+  .aboutus-grid{
     max-width : 1600px;
     margin: 0 auto;
   }
