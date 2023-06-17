@@ -266,13 +266,15 @@ body {
     grid-column: 3/4;
     grid-row: 1/2;
     padding-bottom: 50px;
-    align-content:center ;
+    align-content:center;
+    width: 600px;
   }
   .image2{
     grid-column: 3/4;
     grid-row: 2/3;
     padding-bottom: 50px;
-    align-content:center ;
+    align-content:center;
+    width: 600px;
   }
   .text-card {
     display: grid;
