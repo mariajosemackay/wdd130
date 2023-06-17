@@ -243,6 +243,10 @@ body {
     max-width : 1600px;
     margin: 0 auto;
   }
+  content2{
+    max-width : 1600px;
+    margin: 0 auto;
+  }
   .aboutus-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
