@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300&family=Fugaz+One&family=Hind+Guntur&display=swap');
+
+body {
+    background-color : #ffffff;
+    font-family: 'Blinker', sans-serif;
+    font-family: 'Fugaz One', cursive;
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 22px;
+    margin: 0 ;
+    padding: 0;
+  }
+  #content {
+    max-width : 1600px;
+    margin: 0 auto;
+  }
+  header { 
+    background-color : a#ffffff;
+    
+    grid-template-columns : 150px auto;
+
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  nav a {
+    text-decoration: none;
+    text-align: center;
+    background-color :#ffffff;
+    text-decoration: none;
+    color: #A68B03;
+    padding: 35px;
+  }
+  
+  #logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+ }
+ .logo {
+    width: 250px;
+ }
+ main section img {
+    box-sizing: border-box;
+    width: 450px
+ }
+ main section {
+    text-align: center;
+  }
+  .home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+ .home-grid img {
+    margin: 5px;
+}
+.aboutme-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+}
