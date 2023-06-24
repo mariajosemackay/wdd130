@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="styles/style.css" />
+    <title>Contact Me!</title>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                    <img class="logo" src="images/CC_logo.png" alt="Cote Capture Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">Portfolio</a>
+                <a href="contactus.html">Contact Me!</a>
+            </nav>
+         </header>
+    </div>
+    <style>
+        form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 1000px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #D6CCC2;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 2em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 1000px;
+  text-align: left;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 700px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #D6CCC2;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #D6CCC2;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 8em;
+}
+
+.button {
+  /* Align buttons with the text fields */
+  padding-left: 130px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: 0.5em;
+  border-radius: 1em;
+  text-align: center;
+  padding: 0.5em;
+  width: 30%;
+  margin: auto;
+  font-size: 22px;
+}
+    </style>
+</head>
+<div id="hero">
+    <div id="hero-box">
+        <img id="hero-img" src="images/IMG_6039.jpg" alt="People enjoying white water rafting">
+    </div>
+</div>
+<main>
+    <body>
+        <h1>Let's get in touch!</h1>
+        <p></p>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+              <li>
+                <label for="name">Full Name (for couples, please also include the name of your partner):</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" />
+              </li>
+              <li>
+                <label for="phone">Phone Number:</label>
+                <input type="phone" id="phone" name="user_email" />
+              </li>
+              <li>
+                <label for="Ig">Instagram Handle:</label>
+                <input type="ig" id="ig" name="user_email" />
+              </li>
+              <li>
+                <label for="session">What type of photo session are you looking for?</label>
+                <input type="session" id="jg" name="type_session" />
+              </li>
+              <li>
+                <label for="location"> Where are you wanting this session to take place?:</label>
+                <input type="location" id="phone" name="user_location" />
+              </li>
+              <li>
+                <label for="level">What stage of enquiry are you in right now?(Please choose between: Not sure yet; 90% there, I just have some questions or I'm ready to book with you!):</label>
+                <textarea id="level" name="user_level"></textarea>
+                <li class="button">
+                    <button type="submit">Send Form</button>
+                  </li>
+              </li>
+            </ul>
+          </form>
+      </body>
+  
+</main>
+        <footer>
+            <p>Cote Capture Photography &copy; 2023 - Maria Jose Arevalo</p>
+            <p><a href="portfolio.html">Portfolio</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/WHITEFB.png" alt="fb icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/IGWHITE.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+</body>
+</html>
