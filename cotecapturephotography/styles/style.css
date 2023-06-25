@@ -159,6 +159,18 @@ width: 470px;
     width: 50%; 
     border-radius: 20em;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+    gap: 20 px;
+    width: fit-content;
+}
+.grid-container img{
+  width: 350px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
 
 footer {
     background-color :#D6CCC2;
