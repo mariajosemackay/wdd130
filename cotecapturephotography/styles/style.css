@@ -125,8 +125,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 20px;
-    padding-left: 155px;
-    gap: 50 px 50 px;
 }
 .grid-portfolio h1 , h2, h3{
     font-size: 50px;
