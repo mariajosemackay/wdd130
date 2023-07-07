@@ -204,7 +204,12 @@ width: 470px;
   justify-content: center;
   margin-bottom: 10px;
 }
-
+body h1{
+  font-family: var(--heading-font)
+}
+body h1{
+ padding-left: 500px;
+}
 footer {
     background-color :#D6CCC2;
     padding: 0px;
