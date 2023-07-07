@@ -162,8 +162,9 @@ body {
 .grid-portfolio h1 , h2, h3{
     font-size: 50px;
     margin: 45px;
+    padding-left: 40px;
     font-family: var(--heading-font)
-    
+
 }
 .grid-portfolio img{
 width: 470px;
@@ -203,7 +204,8 @@ width: 470px;
   width: 350px;
   justify-content: center;
   margin-bottom: 10px;
-  padding-right: 90px;
+  align-self: center;
+  
 }
 body h1{
   font-family: var(--heading-font)
