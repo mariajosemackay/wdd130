@@ -33,6 +33,7 @@ body {
   #content {
     width: 100%;
     margin: 0 auto;
+    font-family: var(--heading-font)
   }
   header { 
     background-color : #EDEDE9;
@@ -156,10 +157,12 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 20px;
+    padding-left: 100px;
 }
 .grid-portfolio h1 , h2, h3{
     font-size: 50px;
     margin: 45px;
+    font-family: var(--heading-font)
     
 }
 .grid-portfolio img{
@@ -182,6 +185,7 @@ width: 470px;
     font-size: 50px;
     margin: 45px;
     width: 40%;
+    font-family: var(--heading-font)
     
 }
 .grid-myphoto img{
