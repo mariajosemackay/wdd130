@@ -209,7 +209,7 @@ width: 470px;
   justify-content: center;
   margin-bottom: 10px;
   align-self: center;
-  padding-right: 100px;
+  padding-left: 50px;
 }
 body h1{
   font-family: var(--heading-font)
