@@ -8,13 +8,16 @@ body {
     font-size: 22px;
     margin: 0 ;
     padding: 0;
-    max-width: 1600px;
   }
   h2 {
     margin: 0;
   }
   #content {
-    max-width : 1600px;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  #content3 {
+    max-width: 1600px;
     margin: 0 auto;
   }
   
@@ -111,7 +114,7 @@ body {
     width: 20%;
     margin: auto;
     background-color: #DCC396;
-    border-radius: 20em
+    border-radius: 20em;
   }
   main section {
     text-align: center;
@@ -145,6 +148,8 @@ body {
     display: grid;
     grid-column: 1/11;
     grid-row: 4/9;
+    left: 0;
+    right: 0;
   }
   .mountains {
     display: grid;
@@ -184,6 +189,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    left: 0;
+    right: 0;
   }
   footer a {
     background-color: #DCC396;
@@ -231,6 +238,8 @@ body {
   .content2{
     max-width : 1600px;
     margin: 0 auto;
+    left: 0;
+    right: 0;
   }
   .aboutus-grid{
     display: grid;
@@ -284,6 +293,7 @@ body {
     margin: 0 auto;
   }
 
+
   #feedback {
     background-color: antiquewhite;
     position: absolute;
@@ -291,12 +301,15 @@ body {
     left: 0;
     right: 0;
     padding: .5em;
+    padding-bottom: 28px;
     /* make this element invisible until we are ready for it */
     display: none;      
 }
 .moveDown {
     margin-top: 3em;
 }
+  
+
   
   @media screen and (max-width: 900px) {
     #hero, .home-grid {
