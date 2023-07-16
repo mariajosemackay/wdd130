@@ -165,9 +165,10 @@ body {
     padding-left: 40px;
     font-family: var(--heading-font)
 
+
 }
 .grid-portfolio img{
-width: 470px;
+width: 400px;
 }
 .grid-intro h1{
   padding-right: 40px;
